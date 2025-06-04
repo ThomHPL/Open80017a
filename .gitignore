@@ -1,0 +1,55 @@
+# KiCad project files to ignore
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+*.net
+*.xml
+*.csv
+*.pdf
+*.zip
+*.tar.*
+*.bak
+*.tmp
+*.swp
+*.bck
+*.bkp
+*.sch-bak
+*.pcb-bak
+*.dcm
+*.lib
+*.mod
+*.cache
+*.pro
+*.wrl
+*.step
+*.stp
+*.3dshapes/
+
+# User/editor files
+*.user
+*.sublime*
+*.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build/output directories
+/build/
+/dist/
+/output/
+
+# BOM and Gerber output
+PCB/gerber/
+
+# Simulations (LTspice, ngspice, etc.)
+*.raw
+*.log
+*.op.raw
+*.save
+*.cir
+*.bkp
+*.tmp
+*.swp
