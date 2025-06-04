@@ -8,7 +8,6 @@
 *.net
 *.xml
 *.csv
-*.pdf
 *.zip
 *.tar.*
 *.bak
