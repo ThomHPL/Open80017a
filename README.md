@@ -23,8 +23,7 @@ While some clone modules are available for sale, they are often hard to find or 
 
 ### Schematic
 
-[Open80017a Schematic (PDF)](Outputs/Open80017a.pdf)
-<img src="Outputs/Open80017a.svg?sanitize=true"/>
+[<img src="Outputs/Open80017a.svg?sanitize=true"/>](Outputs/Open80017a.pdf)
 
 ### Production
 While the project uses a 4-layer board design, it has not requirements considering impedance control. It can therefore be made with any cheap 4-layer online service.
