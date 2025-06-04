@@ -1,0 +1,11 @@
+===== v0.2 =====
+changes:
+- fix for proper PMOS buffer circuits footprint
+notes:
+- (not produced yet)
+
+===== v0.1 =====
+changes:
+- first version
+notes:
+- footprint error for Q2-5
