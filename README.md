@@ -1,8 +1,13 @@
 # Open80017a: an Open Source 80017a Roland Clone
+<style>
+table, th, td {
+  border:0px solid black;
+}
+</style>
 <table>
   <tr>
-    <td align="center"><b>Top View</b><br><img src="Outputs/top.png" width="350"></td>
-    <td align="center"><b>Bottom View</b><br><img src="Outputs/bottom.png" width="350"></td>
+    <td align="center"><b>Top View</b><br><img src="Outputs/top.png" width="600"></td>
+    <td align="center"><b>Bottom View</b><br><img src="Outputs/bottom.png" width="600"></td>
   </tr>
 </table>
 
