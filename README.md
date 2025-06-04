@@ -1,4 +1,4 @@
-# Open80017a: an Open source 80017a Roland clone
+# Open80017a: an Open Source 80017a Roland Clone
 <table>
   <tr>
     <td align="center"><b>Top View</b><br><img src="Outputs/top.png" width="350"></td>
@@ -7,19 +7,40 @@
 </table>
 
 ## Context
-The 80017a is a VCF/VCA module coated in resin, that is used in the channels of various vintage Roland synth such as the Juno-106. They are known to fail over time, potentially because of the resin coating. 
+The 80017a is a VCF/VCA module encapsulated in resin, used in the voices of various vintage Roland synthesizers such as the Juno-106. These modules are known to fail over time, potentially due to the resin coating.
 
-## Open source after market replacement
+## Open Source Aftermarket Replacement
+While some clone modules are available for sale, they are often hard to find or relatively expensive. To be 100% honest, this project is also mostly a learning opportunity for me in vintage analog synth design.
 
-Some clone modules are available for sale, but they are either hard to find, or kind of expansive. To be honest, it's also mostly a learning opportunity for me on old synth analog design.
+### Key Design Focus Points
+- **EMC Best Practices**
+    - 4-layer PCB design
+    - Proper trace spacing
+- **Thermal Stability**
+    - Vias under the OTAs to (try to) thermally couple them using an internal ground plane
+- **Miniaturization**
+    - Tries to match the original module dimensions
+
+### Schematic
+
+[Open80017a Schematic (PDF)](Outputs/Open80017a.pdf)
+<embed src="Outputs/Open80017a.pdf" width="700px" height="500px" type="application/pdf">
+
+
+### Production
+While the project uses a 4-layer board design, it has not requirements considering impedance control. It can therefore be made with any cheap 4-layer online service.
+
 
 ## Tests
+Version 0.1 was assembled and tested in a Juno-106, with no perceivable difference (to my ears) between the clone and the original voices. However, there was an error in the buffer PMOS footprint, which was corrected with bodge wires.
 
-Version 0.1 was assembled and tested on a Juno-106 with no (to my ears) perceivable distinction between the clone voice and the original ones. It had, however, an error in the footprint for the buffer PMOS's that was fixed with bodge wires.
-
-Version 0.2 fixes the footprints. Not assembled and tested for now.
+Version 0.2 fixes the footprints. It has not yet been assembled or tested.
 
 ## Credits
-- This work was motivated by a dead channel on my brother's Juno 106. Thanks for the chance to help you bro.
-- It wouldn't have been possible without ressources found on the web, and especially the info given by **dksynth** and **guest** found on the following forum. Many thanks to them!
-[https://modwiggler.com/forum/viewtopic.php?t=238335](https://modwiggler.com/forum/viewtopic.php?t=238335)
+- This work was motivated by a dead channel on my brother's Juno-106. Thanks for the opportunity to help bro'!
+
+- It would not have been possible without resources found online, especially the information provided by **dksynth** and **guest** on the following forum. Many thanks to them! [https://modwiggler.com/forum/viewtopic.php?t=238335](https://modwiggler.com/forum/viewtopic.php?t=238335)
+
+## Disclaimer
+
+While I did my best to provide a good quality design and I performed a simple test of the design, this project is provided as-is, without any warranty or guarantee. I am not responsible for any damage, malfunction, or harm caused to your hardware, equipment, or any other property resulting from the use, assembly, or modification of this project. Use at your own risk.
