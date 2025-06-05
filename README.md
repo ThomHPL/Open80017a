@@ -36,8 +36,9 @@ Version 0.2 fixes the footprints. It has not yet been assembled or tested.
 
 ## Credits
 - This work was motivated by a dead channel on my brother's Juno-106. Thanks for the opportunity to help bro'!
-
 - It would not have been possible without resources found online, especially the information provided by **dksynth** and **guest** on the following forum. Many thanks to them! [https://modwiggler.com/forum/viewtopic.php?t=238335](https://modwiggler.com/forum/viewtopic.php?t=238335)
+- Thanks to [**deanm1278**](https://github.com/deanm1278) for the [LM13700 spice model](https://github.com/deanm1278/LM13700-spice-model).
+- A lot of good info there as well: [80017A VCF/VCA Teardown](https://obsoletetechnology.wordpress.com/projects/80017a-vcfvca-teardown/)
 
 ## Disclaimer
 
