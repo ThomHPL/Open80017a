@@ -34,6 +34,11 @@ Version 0.1 was assembled and tested in a Juno-106, with no perceivable differen
 
 Version 0.2 fixes the footprints. It has not yet been assembled or tested.
 
+## Support
+
+If you like my work, you can contribute with a coffee there ;)
+<a href='https://ko-fi.com/L3L01G0XU9' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## Credits
 - This work was motivated by a dead channel on my brother's Juno-106. Thanks for the opportunity to help bro'!
 - It would not have been possible without resources found online, especially the information provided by **dksynth** and **guest** on the following forum. Many thanks to them! [https://modwiggler.com/forum/viewtopic.php?t=238335](https://modwiggler.com/forum/viewtopic.php?t=238335)
