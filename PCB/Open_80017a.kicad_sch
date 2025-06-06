@@ -8545,7 +8545,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "644e1c91-89d3-4185-a39f-8ac579b67721")
 		(property "Reference" "J1"

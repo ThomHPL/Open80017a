@@ -1,7 +1,6 @@
 # KiCad project files to ignore
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.kicad_prl
 *-cache.lib
 *-rescue.lib
 *-rescue.dcm
@@ -26,6 +25,10 @@
 *.step
 *.stp
 *.3dshapes/
+_autosave*
+**auto_saved*
+~*
+
 
 # User/editor files
 *.user
@@ -42,7 +45,8 @@ Thumbs.db
 
 # BOM and Gerber output
 PCB/gerber/
-
+PCB/fabrication-toolkit-options.json
+PCB/production/
 # Simulations (LTspice, ngspice, etc.)
 *.raw
 *.log
